@@ -18,7 +18,61 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
 }
 
+/* Friðrik */
+
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  
+
+  height: 100%;
+  max-width: 1200px;
+
+  font: 16px;
+  font-family: Arial;
+}
+
+div.grid__header {
+  background-color: #afb281;
+  justify-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+div.grid__h1 {
+  text-align: center;
+  font: bold;
+}
+
+div.grid__h2 {
+  display: flex;
+  flex-direction: row;
+}
+
+div.grid__footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: #cc9694;
+  width: fill;
+  height: 150%;
+}
+
+div.grid__col {
+  display: flex;
+  flex-direction: column;
+  margin: 1em; 
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ffff;
+}
+
+
 
 
 // TODO sækja allar sass skrár
-@import "scss/...";
+// @import "scss/...";
