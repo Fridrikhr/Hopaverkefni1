@@ -1,0 +1,79 @@
+/* Friðrik */
+div.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 647px;
+    max-width: 1200px;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  
+  div.grid__header {
+    display: flex;
+    justify-content: center;
+    background-color: #afb281;
+    flex-direction: column;
+    width: 100%; }
+  
+  div.grid__h1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-decoration: bold; 
+  }
+  
+  div.grid__síður {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  div.grid__123 {
+    display:flex;
+    margin-top: 1em;
+  }
+  
+  div.grid__h2 {
+    display: flex;
+    flex-flow: row;
+    margin-left: 1em;
+  }
+  
+  div.grid__undirstrik {
+    text-decoration: underline;
+  }
+  
+  div.grid__karfa {
+    display:flex;
+    align-self: flex-end;
+  }
+  
+  div.grid__footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: #cc9694;
+    height: 150%; }
+  
+  div.grid__linkar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  div.grid__col {
+    display: flex;
+    flex-direction: column;
+    margin: 1em; }
+  
+  div.grid__c {
+    display:flex;
+    align-content: flex-end;
+    justify-content: center;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+    color: #ffff; }

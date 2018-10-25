@@ -1,1 +1,7 @@
 // TODO stillingar hér
+@mixin breidd($col: 1) {
+    
+    /*Reikna breidd miðað við dálka*/
+    width:($col / 12 * 100 * 1%);
+}
+
