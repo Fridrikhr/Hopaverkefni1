@@ -14,25 +14,57 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
+  font-size: 16px;
   // TODO fleiri grunn stillingar
 }
-.grid__row {
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img.image{
+  max-height:100%;
+  max-width:100%;
+}
+div.index__text{
+  color:blue;
+  align-self: center;
+  
+}
+div.grid__index{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  border: 8px solid;
+  padding-right: 20px;
+  padding-left: 20px;
+  height:647px;
+  max-width:1200px;
+  margin: 0 auto;
+}
+div.index__row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-left: -10px;
   margin-right: -10px;
+  border: 8px solid green;
+  height:50%;
+  
 }
 
-.grid__kassi {
-  width: 100%;
+div.index__kassi {
+  display:flex;
   padding-right: 10px;
   padding-left: 10px;
+  border:8px solid blue;
+  width:50%;
+  align-content: center;
 }
 
-.grid__row:nth-child(2n) .grid__col:first-child {
-  order: 2;
-}
+
 
 
 // TODO sækja allar sass skrár
