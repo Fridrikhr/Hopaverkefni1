@@ -1,24 +1,145 @@
-@import "scss/config";
+ @import "scss/config";
 
+@charset "UTF-8";
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
-html { /* stylelint-disable-line */
+ 
+
+html {
+  /* stylelint-disable-line */
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: hidden; }
 
-  // TODO fleiri grunn stillingar
+/* Friðrik */
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial;
+
+  font-size: 16px;
+  height: 647px;
 }
 
+div.grid__header {
+  display: flex;
+  justify-content: center;
+  background-color: #afb281;
+  flex-direction: column;
+  width: 100%; }
 
+div.grid__h1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-decoration: bold; 
+}
 
-// TODO sækja allar sass skrár
-@import "scss/button";
+div.grid__síður {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.grid__123 {
+  display:flex;
+  margin-top: 1em;
+}
+
+div.grid__h2 {
+  display: flex;
+  flex-flow: row;
+  margin-left: 1em;
+  font-size: 12px;
+}
+
+div.grid__undirstrik {
+  text-decoration: underline;
+}
+
+div.grid__ka {
+  display:flex;
+  align-self: flex-end;
+}
+
+div.grid__karfa {
+  display: flex;
+  flex-flow: column;
+  height: 300;
+  justify-content: space-between;
+}
+
+div.grid__ur {
+    display: flex;
+    flex-flow: row;
+    height: 150px;
+}
+
+div.grid__ouuppl {
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+/* takki fyrir úr*/
+
+div.grid__ht {
+    display: flex;
+    flex-flow: row;
+    height: 150px;
+}
+
+div.grid__htuppl {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between
+}
+
+div.grid__htmynd {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+img.image {
+    width: 150px;
+    height: 150px;
+}
+
+div.grid__footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  background-color: #cc9694;
+  height: 150%; }
+
+div.grid__linkar {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+div.grid__col {
+  display: flex;
+  flex-direction: column;
+  margin: 1em; }
+
+div.grid__c {
+  display:flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ffff; }
+
+/* kóði fyrir cart */
