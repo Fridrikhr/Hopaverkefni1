@@ -1,0 +1,375 @@
+
+@charset "UTF-8";
+* {
+ padding: 0;
+ margin: 0; }
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit; }
+
+
+html {
+ /* stylelint-disable-line */
+ box-sizing: border-box;
+ overflow-x: hidden; }
+
+/* Friðrik */
+div.gridf {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ font-family: Arial;
+
+ font-size: 16px;
+}
+
+div.gridf__headerf {
+ display: flex;
+ justify-content: center;
+ background-color: #afb281;
+ flex-direction: column;
+ width: 100%; }
+
+div.gridf__h1 {
+ display: flex;
+ flex-flow: row;
+ justify-content: center;
+ text-decoration: bold;
+}
+
+div.gridf__síður {
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+div.gridf__123 {
+ display:flex;
+ margin-top: 1em;
+}
+
+div.gridf__h2 {
+ display: flex;
+ flex-flow: row;
+ margin-left: 1em;
+ font-size: 12px;
+}
+
+div.gridf__undirstrik {
+ text-decoration: underline;
+}
+
+div.gridf__ka {
+ display:flex;
+ align-self: flex-end;
+
+ padding-right: 20px;
+}
+
+div.gridf__vik {
+ margin: 20px 0;
+}
+
+div.gridf__karfa {
+ display: flex;
+ flex-flow: column;
+ justify-content: space-between;
+  max-width: 1200px;
+ height: 50%;
+ margin: 0 auto;
+}
+
+div.gridf__ur {
+   display: flex;
+   flex-flow: row;
+   height: 300px;
+   max-width: 1200px;
+   width: 100%;
+
+   margin-bottom: 20px;
+}
+
+div.gridf__urmynd {
+ width: 32.3%;
+ height: 100%;
+ margin-right: 20px;
+}
+
+div.gridf__ouuppl {
+   display:flex;
+   flex-flow: column;
+   justify-content: space-between;
+}
+/*hnappar*/
+div.gridf__ouhnappar {
+ display: flex;
+ flex-direction: row;
+}
+
+div.gridf__ouhnappar__hægri {
+ display:flex;
+ flex-flow: row;
+}
+
+button.ouhnappar__takki1 {
+ display: flex;
+ width: 100%;
+ height: 30px;
+ padding: 10px 10px 10px 50px;
+ white-space: nowrap;
+ background: #fff url("../img/cart.svg");
+ background-repeat: no-repeat;
+ background-position: 10px 5px;
+ background-size: 20px;
+ border-radius: 3px;
+ transition: background-color 300ms ease-in-out;
+ background-image: url(img/cart.svg)
+}
+
+button.ouhnappar__takki2 {
+ display: flex;
+ width: 100%;
+ height: 30px;
+ padding: 10px 10px 10px 50px;
+ white-space: nowrap;
+ background: #fff url("../img/cart.svg");
+ background-repeat: no-repeat;
+ background-position: 10px 5px;
+ background-size: 20px;
+ border-radius: 3px;
+ transition: background-color 300ms ease-in-out;
+ background-image: url(img/cart.svg)
+}
+
+div.gridf__ouhnappar__vinstri {
+ width: 100%;
+ border-radius: 3px;
+}
+
+div.gridf__ouhnappar__fjoldi {
+ width: 100%;
+ height: 100%;
+ border-radius: 3px;
+}
+
+select.ouhnappar__fjoldi {
+ width: 100%;
+ height: 100%;
+ border-radius: 3px;
+}
+
+div.gridf__ht {
+   display: flex;
+   flex-flow: row;
+   height: 300px;
+   margin-bottom: 20px;
+}
+
+div.gridf__htuppl {
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+ }
+
+div.gridf__htmynd {
+   display: flex;
+   width: 35.5%;
+   height: 100%;
+   margin-right: 20px;
+}
+
+div.gridf__hthnappar {
+ display: flex;
+ flex-direction: row;
+}
+
+div.gridf__hthnappar__vinstri {
+ width: 20%;
+}
+
+div.gridf__hthnappar__hægri {
+ display: flex;
+ flex-direction: row;
+}
+
+button.hthnappar__takki1 {
+ display: flex;
+   height: 30px;
+   padding: 10px 10px 10px 50px;
+   white-space: nowrap;
+   background: #fff url("../img/cart.svg");
+   background-repeat: no-repeat;
+   background-position: 10px 5px;
+   background-size: 20px;
+   border-radius: 3px;
+   transition: background-color 300ms ease-in-out;
+   background-image: url(img/cart.svg)
+}
+
+button.hthnappar__takki2 {
+ display: flex;
+ width: 100%;
+ height: 30px;
+ padding: 10px 10px 10px 50px;
+ white-space: nowrap;
+ background: #fff url("../img/cart.svg");
+ background-repeat: no-repeat;
+ background-position: 10px 5px;
+ background-size: 20px;
+ border-radius: 3px;
+ transition: background-color 300ms ease-in-out;
+ background-image: url(img/cart.svg)
+}
+
+div.gridf__hthnappar__vinstri {
+ width: 100%;
+ border-radius: 3px;
+}
+
+div.gridf__hthnappar__fjoldi {
+ width: 100%;
+ height: 100%;
+ border-radius: 3px;
+}
+
+select.hthnappar__fjoldi {
+ width: 100%;
+ height: 100%;
+ border-radius: 3px;
+}
+
+img.image {
+   width: 100%;
+   height: 100%;
+}
+
+img.cart_img {
+ display: inline-block;
+ height: 20px;
+ margin: 0 -1em -0.25em 0;
+}
+
+div.gridf__col__form {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+
+div.gridf__col__efri {
+ display: flex;
+ flex-direction: row;
+}
+
+div.gridf__kaupa {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+button.form__button {
+ border:none;
+ background-color:#cc9694;
+ display:inline-block;
+ text-align: center;
+ padding: 10px 40px;
+ border-radius:3px;
+}
+
+button.form__button:hover {
+ background-color:#000000;
+ color:#cc9694;
+}
+
+div.gridf__form__titill {
+ margin-bottom: 10px;
+}
+
+div.form__label {
+ margin-bottom: 5px;
+}
+
+.form__box {
+ float: right;
+ width: 66.667777%;
+ height: 30px;
+ border: 1px solid #000; }
+
+.form__box__gildistimi {
+ height: 30px; }
+
+.form__label__gildistimi {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px; }
+
+ .gridf__col__form__vinstri {
+     display: flex;
+     padding-right: 20px;
+     padding-left: 20px;
+     flex-direction: column; }
+     @media (min-width: 700px) {
+       .gridf__col__form__vinstri {
+         width: 50%;
+         padding-right: 10px; } }
+     @media (min-width: 1000px) {
+       .gridf__col__form__vinstri {
+         width: 33.333%;
+         margin-left: 16.4%; } }
+     @media (min-width: 1200px) {
+       .gridf__col__form__vinstri {
+         padding-right: 0;
+         padding-left: 20px; } }
+  
+   .gridf__col__form__hægri {
+     display: flex;
+     padding-right: 20px;
+     padding-left: 20px;
+     flex-direction: column; }
+     @media (min-width: 700px) {
+       .gridf__col__form__hægri {
+         width: 50%;
+         padding-left: 10px; } }
+     @media (min-width: 1000px) {
+       .gridf__col__form__hægri {
+         width: 33.333%;
+         padding-right: 10px; } }
+     @media (min-width: 1200px) {
+       .gridf__col__form__hægri {
+         padding-right: 3.4px;
+         padding-left: 20px; } }
+  
+   .gridf__form__titill {
+     margin-top: 20px;
+     font-family: "Oswald", Verdana, serif;
+     text-align: left; }
+
+/* footer byrjar */
+div.gridf__footerf {
+ display: flex;
+ flex-flow: column;
+ justify-content: space-evenly;
+ background-color: #cc9694;
+ height: 150%; }
+
+div.gridf__linkar {
+ display:flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+div.gridf__col {
+ display: flex;
+ flex-direction: column;
+ margin: 1em; }
+
+div.gridf__c {
+ display:flex;
+ align-content: flex-end;
+ justify-content: center;
+}
+
+a:link, a:visited {
+ text-decoration: none;
+ color: #ffff; }
